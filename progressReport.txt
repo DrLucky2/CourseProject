@@ -1,0 +1,6 @@
+Team League of Legends CS410
+Team members: guoyang2 (Captain), aarondh2
+The accepted project proposal was to create a web extension that provides information about the functionality magic cards. 
+Our three tasks were to create a text scraper to determine card information, implement this scraper into a web extension, and creating an interface to displace the card information. 
+Currently the scraper is nearly complete, but we are having difficulties creating a web extension as it is an area, we do not have expertise in. 
+Creating the display interface cannot begin until the extension has been created.
