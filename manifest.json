@@ -1,0 +1,30 @@
+{
+"manifest_version": 2, 
+"name": "LoL Cardfetcher",
+"version": "1",
+"description": "Lookup MtG cards",
+ "icons": {
+    "16": "icon.png"
+  },
+"content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content_script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+
+"background": {
+    "scripts": ["background.js"]
+  },
+"permissions": [
+"background",
+"tabs",
+"contextMenus",
+"activeTab",
+"storage",
+"unlimitedStorage",
+"http:\/\/*\/*",
+"https:\/\/*\/*"
+]
+
+}
